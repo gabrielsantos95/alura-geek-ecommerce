@@ -1,0 +1,26 @@
+:root {
+    --cor-primaria: #172C3C;
+    --cor-secundaria: #E6B33D;
+    --cor-hover: #272727;
+    --cor-botao: #d96831;  
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-hover);
+    color: #fff;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
