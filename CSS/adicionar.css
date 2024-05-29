@@ -1,0 +1,43 @@
+.adicionar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.adicionar__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.formulario__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto__botao--save, .projeto__botao--clean {
+    padding: 10px;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.projeto__botao--save:hover, .projeto__botao--clean:hover {
+    background-color: var(--cor-secundaria);
+}
